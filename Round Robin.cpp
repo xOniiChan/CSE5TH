@@ -51,6 +51,6 @@ else completed++;
 CT=CT+p[min_id].RT;
 p[min_id]-RT=0;
 front=(front+1)mod n;
-else {
-CT++;
-}
+p[min_id].TAT=CT-p[min_id].AT;
+p[min_id].WT=p[min_id].TAT-p[min_id].BT;
+
