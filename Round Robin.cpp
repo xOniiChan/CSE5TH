@@ -10,7 +10,7 @@ struct process temp;
 {
 for (int i=0;i<n-1;i++)
   for(int j=0;j<n;j++) {
-if (p[i}.AT>p[j].AT){
+if (p[i].AT>p[j].AT){
 temp=p[i];
 p[i]=p[j];
 p[j]=temp;
